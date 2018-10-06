@@ -1,0 +1,7 @@
+startFrame = 371;
+endFrame   = 1001;
+for (var i = startFrame; i <= endFrame; i = i+1)
+    var filename = "frame"+("0000"+i)[-3][0]+".jpg"
+    write IMAGE 800 800 JPG @filename
+    frame next
+end for

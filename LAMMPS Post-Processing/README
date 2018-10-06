@@ -1,0 +1,1 @@
+This directory contains all scripts for post-processing LAMMPS MD simulations. This includes generic processing of the .trj output file, analysis for periodic solid (lattice) systems, molecule tracking, and other features. It is broken into main files, classes, and other miscellaneous utilities.

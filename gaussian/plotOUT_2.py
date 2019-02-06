@@ -54,12 +54,16 @@ fig = plt.figure()
 ax = plt.subplot(111)
 x = []
 y = []
+z = []
 for val in table:
     if not val:
         continue
     x.append(val[0])
     y.append(val[1])
+    z.append(val[2])
 ax.semilogy(x,y)
+ax.semilogy(x,z)
+ax.legend(['force','disp'])
 fig.savefig('C:/Users/Shehan Parmar/Desktop/CHAFFDesktop/CHAFF/gaussian/Run1/graph.png')
 
 
